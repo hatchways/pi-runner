@@ -1,0 +1,13 @@
+{
+  "name": "hatchways-project-interview-runner",
+  "version": "1.0.0",
+  "description": "Helper scripts for running Hatchways project interview repos.",
+  "main": "index.js",
+  "author": "Danny Kim",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "stop": "node stop.js"
+  }
+}
