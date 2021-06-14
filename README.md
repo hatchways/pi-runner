@@ -3,7 +3,7 @@ Helper scripts for running Hatchways project interview repos.
 
 ## Requirements
 - Bash (Not tested on Windows)
-- GitHub CLI (aka `gh`)
+- [GitHub CLI](https://cli.github.com/) (a.k.a. `gh`)
 - Docker & Docker compose
 - NodeJS
 
@@ -13,6 +13,9 @@ yarn start <pull-request-url>
 # OR
 npm start <pull-request-url>
 ```
+
+Open http://localhost:3000/ in a browser.
+
 When you are done testing, press Ctrl-C to stop Docker containers.
 
 `yarn stop` in separate terminal can also stop Docker containers.
